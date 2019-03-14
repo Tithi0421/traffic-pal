@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afinal.android.trafficpal.Activity.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/pre3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/previous"
+        android:textSize="15dp"
+        android:background="@drawable/bg_layout_rounded"
+        android:textColor="@color/colorPrimary"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sv"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pre3"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="120dp"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:text="@string/violations"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/date"
+                android:typeface="serif"
+                android:id="@+id/vio"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_height="50dp"
+                android:text=":"
+                android:typeface="serif"
+                android:id="@+id/ch"
+                android:layout_below="@+id/ch1"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/vio" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/item"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_below="@+id/date"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/ch" />
+            <TextView
+                android:layout_width="120dp"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:text="@string/date"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/date"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_below="@+id/Id"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="20dp"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:text=":"
+                android:id="@+id/ch1"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_below="@+id/ch2"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/date" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text=""
+                android:id="@+id/date1"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/Id"
+                android:layout_toRightOf="@id/ch1" />
+            <TextView
+                android:layout_width="120dp"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:text="@string/scanning_d3"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/Id"
+                android:typeface="serif"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="20dp"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:typeface="serif"
+                android:text=":"
+                android:id="@+id/ch2"
+                android:textStyle="bold"
+                android:layout_below="@+id/ch3"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/Id" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:id="@+id/Id1"
+                android:typeface="serif"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/name"
+                android:layout_toRightOf="@id/ch2" />
+            <TextView
+                android:layout_width="120dp"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:text="@string/name"
+                android:typeface="serif"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/name"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="20dp"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:text=":"
+                android:id="@+id/ch3"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:typeface="serif"
+                android:layout_toRightOf="@id/name" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:id="@+id/name1"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/ch3" />
+
+            <Button
+                android:id="@+id/submit3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/item"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/submit"
+                android:textSize="15dp"
+                android:background="@drawable/bg_button_rounded"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

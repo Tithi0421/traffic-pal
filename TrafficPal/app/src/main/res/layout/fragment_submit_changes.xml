@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afinal.android.trafficpal.Activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text="@string/sc_vid"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView_vid"
+        />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch4"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/textView_vid" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=""
+        android:id="@+id/textView_vidvalue"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ch4" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text="@string/sc_ofid"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView_ofid"
+        android:layout_below="@+id/textView_vid" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch5"
+        android:layout_below="@+id/ch4"
+        android:layout_toRightOf="@id/textView_ofid" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView_ofidvalue"
+        android:layout_below="@+id/textView_vidvalue"
+        android:layout_toRightOf="@id/ch5" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text="@string/sc_Lno"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView_lno"
+        android:layout_below="@+id/textView_ofidvalue" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch6"
+        android:layout_below="@+id/textView_ofidvalue"
+        android:layout_toRightOf="@id/textView_lno" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=""
+        android:id="@+id/textView_lnovalue"
+        android:layout_below="@+id/textView_ofidvalue"
+        android:layout_toRightOf="@id/ch6" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text="@string/sc_date"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView_date"
+        android:layout_below="@+id/textView_lno" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch7"
+        android:layout_below="@+id/ch6"
+        android:layout_toRightOf="@id/textView_date" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=""
+        android:id="@+id/textView_datevalue"
+        android:layout_below="@+id/textView_lnovalue"
+        android:layout_toRightOf="@id/ch7" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text="@string/sc_vio"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView_vio"
+        android:layout_below="@+id/textView_date" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch8"
+        android:layout_below="@+id/ch7"
+        android:layout_toRightOf="@id/textView_vio" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView_viovalue"
+        android:layout_below="@+id/textView_datevalue"
+        android:layout_toRightOf="@id/ch8" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/msgtitle"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView_viovalue"
+        android:text="@string/sc_msgtitle"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/your_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:height="170dp"
+        android:layout_below="@id/msgtitle"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/post_message"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_button_rounded"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/sc_button"
+        android:textAllCaps="true"
+        android:layout_below="@id/your_message"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

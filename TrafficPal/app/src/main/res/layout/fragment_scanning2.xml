@@ -1,0 +1,313 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afinal.android.trafficpal.Activity.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/next"
+        android:textSize="15dp"
+        android:background="@drawable/bg_layout_rounded"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="140dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text="@string/scanning_d1"
+        android:textStyle="bold"
+        android:id="@+id/textView_aod"
+        android:layout_below="@id/next1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="left|top"
+        />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch7"
+        android:layout_below="@id/next1"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/textView_aod"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/textView_aodvalue"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/next1"
+        android:layout_toRightOf="@id/ch7" />
+    <TextView
+        android:layout_width="140dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text="@string/scanning_d2"
+        android:textStyle="bold"
+        android:id="@+id/textView_dateissue"
+        android:layout_below="@id/textView_aod"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="left|top"
+        />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch1"
+        android:layout_below="@id/ch7"
+        android:layout_toRightOf="@id/textView_dateissue"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/textView_issuevalue"
+        android:layout_below="@+id/textView_aodvalue"
+        android:layout_toRightOf="@id/ch1" />
+    <TextView
+        android:layout_width="140dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text="@string/scanning_d3"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView_number"
+        android:layout_below="@+id/textView_dateissue" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch2"
+        android:layout_below="@+id/ch1"
+        android:layout_toRightOf="@id/textView_number" />
+    <TextView
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/textView_numbervalue"
+        android:layout_below="@+id/textView_issuevalue"
+        android:layout_toRightOf="@id/ch2" />
+    <TextView
+        android:layout_width="140dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text="@string/scanning_d4"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:id="@+id/textView_validity"
+        android:layout_below="@+id/textView_number" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch3"
+        android:layout_below="@+id/ch2"
+        android:layout_toRightOf="@id/textView_validity" />
+    <TextView
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/textView_validityvalue"
+        android:layout_below="@+id/textView_numbervalue"
+        android:layout_toRightOf="@id/ch3" />
+    <TextView
+        android:layout_width="140dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text="@string/scanning_d5"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:id="@+id/textView_blacklist"
+        android:layout_below="@+id/textView_validity" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/chb"
+        android:layout_below="@+id/ch3"
+        android:layout_toRightOf="@id/textView_blacklist" />
+    <TextView
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/textView_blacklistvalue"
+        android:layout_below="@+id/textView_validityvalue"
+        android:layout_toRightOf="@id/chb" />
+    <TextView
+        android:layout_width="140dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text="@string/scanning_d6"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:id="@+id/textView_status"
+        android:layout_below="@+id/textView_blacklist" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/chc"
+        android:layout_below="@+id/chb"
+        android:layout_toRightOf="@id/textView_status" />
+    <TextView
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textView_statusvalue"
+        android:layout_below="@+id/textView_blacklistvalue"
+        android:layout_toRightOf="@id/chc" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView_status"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text="@string/name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView_name"
+        android:layout_below="@+id/line1"
+        />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch4"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/textView_name" />
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=""
+        android:id="@+id/textView_namevalue"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/ch4" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text="@string/dob"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView_dob"
+        android:layout_below="@+id/textView_name" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch5"
+        android:layout_below="@+id/ch4"
+
+        android:layout_toRightOf="@id/textView_dob" />
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="30dp"
+        android:text=""
+        android:id="@+id/textView_dobvalue"
+        android:layout_below="@+id/textView_namevalue"
+        android:layout_toRightOf="@id/ch5" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:textSize="15sp"
+        android:layout_height="50dp"
+        android:text="@string/address"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView_addr"
+        android:layout_below="@+id/textView_dob" />
+    <TextView
+        android:layout_width="20dp"
+        android:textSize="15sp"
+        android:layout_height="50dp"
+        android:text=":"
+        android:textStyle="bold"
+        android:id="@+id/ch6"
+        android:layout_below="@+id/ch5"
+
+        android:layout_toRightOf="@id/textView_addr" />
+    <TextView
+        android:layout_width="120dp"
+        android:textSize="15sp"
+        android:layout_height="70dp"
+        android:text=""
+        android:id="@+id/textView_addrvalue"
+        android:layout_below="@+id/textView_dobvalue"
+        android:layout_toRightOf="@id/ch6" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView_imagevalue"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/textView_namevalue"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/line2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView_addr"
+        android:background="#c0c0c0"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rview"
+        android:layout_below="@+id/line2">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

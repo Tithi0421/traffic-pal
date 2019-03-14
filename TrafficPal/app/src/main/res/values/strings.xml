@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">TrafficPal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_faults">Faults</string>
+    <string name="nav_scanning">Scanning</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_change">Request Changes</string>
+    <string name="nav_contact_us">Contact Us</string>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_contact_us">Contact Us</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Faults</item>
+        <item>Scanning</item>
+        <item>Request Changes</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Logout</item>
+
+    </string-array>
+
+
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+
+    <string name="toggle_turn_on">Yes</string>
+    <string name="toggle_turn_off">No</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Type">
+        <item>MC 50CC</item>
+        <item>MCWG</item>
+        <item>MCWOG</item>
+        <item>LMV</item>
+        <item>LMV-NT</item>
+        <item>LMV-TR</item>
+        <item>HMV</item>
+        <item>HPMV</item>
+        <item>HTV</item>
+        <item>TRAILER</item>
+    </string-array>
+
+    <!--Contact Form-->
+
+    <string name="contact_form">Contact Us</string>
+    <string name="contact_form_name">Your Name</string>
+    <string name="contact_form_email">Your Email</string>
+    <string name="contact_form_subject">Subject</string>
+    <string name="contact_form_message">Message</string>
+    <string name="contact_form_button">Send Message</string>
+    <string name="contact_form_post_message">Please wait! We\'re sending your message to the support department.</string>
+    <string name="contact_posted">Your message has been successfully delivered.</string>
+
+    <!--Home fragment Strings -->
+
+    <string name="page1"><u>Enter the License Number/ Vehicle Number of the citizen and press the submit button.</u></string>
+    <string name="page2"><u>The page displays the License details and the Blacklist history.</u></string>
+    <string name="page3"><u>Select the Vehicle type and the violations committed.</u></string>
+    <string name="page4"><u>Review the violation and License details. Press submit when done.</u></string>
+
+    <!--About Strings -->
+    <string name="about">On this road to make Digital India, government has introduced many reforms. One of which was DigiLocker, that widely called out to the Computer Engineers of the nation and went on to become one of the most successful step towards this direction in 2016. One project that we would like to work on would run alongside this DigiLocker and that would serve the traffic police rather than the people. We would like to introduce an online system that would keep check of the road activities of the citizen through his license. Either introducing a QR code onto the License or using the DigiLocker to scan the code from the phone of the citizen, the police can instantly know the road activities of the person. This data will include the major road crimes, blacklisting, suspension of the license, and the like.
+Introducing an android application for the above system would be the absolute path to meet the requirements. Used by over 80% of Indians, android’s dominance cannot be neglected.
+We then have introduced another application for the users to check their license history. This system facilitates the user to know when and what violations he/ she has committed.
+</string>
+    <string name="about_title">About Traffic Pal</string>
+    <string name="about_faqcontent">Find answers to the most common TrafficPal questions.</string>
+    <string name="about_aboutcontent">Know more about TrafficPal and its benefits.</string>
+    <string name="about_version">Version</string>
+
+    <!--Faq fragment -->
+    <string name="faq_title">FAQs</string>
+    <string name="faq_q1">Do I need to login every time I open the app?</string>
+    <string name="faq_q2">Can I open my account in another phone?</string>
+    <string name="faq_q3">What if the citizen does not have a DigiLocker account?</string>
+    <string name="faq_q4">My phone does not have a QR code scanner app installed. Will I be able to scan license?</string>
+    <string name="faq_a1">No, once logged in, you do not need to login again. Only when you explicitly Logout, you need to login again.</string>
+    <string name="faq_a2">Yes. You can use your username and password to log into the account.</string>
+    <string name="faq_a3">A citizen with a normal license has a license number. Select \'Enter License Number\' option and enter the number manually.</string>
+    <string name="faq_a4">You do not need to install another app for scanning. Your phone camera will work.</string>
+    <string name="faqinst">If you are facing any problems, please read the FAQs below. You will find answers and solutions to most of the common questions.\n\nIf your problem is still unresolved, please email us through the app. Our support team will get back to you.</string>
+
+
+    <!--Login fragment -->
+    <string name="log_user">Username</string>
+    <string name="log_pass">Password</string>
+    <string name="log_show">Show Password</string>
+    <string name="log_signin">Sign in</string>
+    <string name="log_forgot">Forgot Password?</string>
+    <string name="log_click">Click here</string>
+
+    <string name="forgot_name">Forgot Password?</string>
+    <string name="forgot_ins">Enter the email id/ user name you use to access your account. A password reset link will be sent to the mentioned email. After changing password, go back to the Login Page and login with new password.</string>
+    <string name="forgot_email">Email</string>
+    <string name="forgot_reset">Reset Password</string>
+    <string name="log_bottom">A Digital India Initiative\nMinistry of Electronics and Information Technology\nGovernment of India</string>
+
+    <!--Home Fragment -->
+    <string name="start_scanning">Start Scanning</string>
+    <string name="homeinst">The above images show a quick guide on how to perform the scanning of License and submitting of the faults.</string>
+
+    <!--Scanning fragments-->
+    <string name="layout1">Scan License Number from digilocker</string>
+    <string name="layout2">Enter License Number</string>
+    <string name="layout3">Enter Vehicle Number</string>
+    <string name="button1">Scan QR Code</string>
+    <string name="submit">Submit</string>
+    <string name="inst">This is the Scanning Page. Here you have three options:\n1) If the Driver has DigiLocker account, then use first option to scan the License QR code.\n2) If the Driver has normal License, then use second option to enter the License Number.\n3) If the Driver does not have a License, then enter the Vehicle Number that is being driven.</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="scanning_d1">Authorized to Drive</string>
+    <string name="scanning_d2">Date of issue</string>
+    <string name="scanning_d3">License Number</string>
+    <string name="scanning_d4">Validity</string>
+    <string name="scanning_d5">Blacklist Points</string>
+    <string name="scanning_d6">Status</string>
+
+    <string name="name">Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="type">Type</string>
+
+    <string name="date">Date</string>
+    <string name="violations">Violations</string>
+
+    <!--Changes Fragment -->
+    <string name="changes">Following shows the entries made from your account. The latest entries will be added at the bottom. Select the entry you want to request change into. Then in the next page, write the changes to be made. You will then be requested to send mail in which the content will already be filled. You just need to send the email from the email client.</string>
+    <string name="sc_vid">Violation Id</string>
+    <string name="sc_ofid">Officer Id</string>
+    <string name="sc_Lno">License Number</string>
+    <string name="sc_vio">Violations</string>
+    <string name="sc_date">Date</string>
+    <string name="sc_msgtitle">Changes</string>
+    <string name="sc_button">Send Changes</string>
+</resources>

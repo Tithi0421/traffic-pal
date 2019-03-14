@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">TrafficPal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">होम</string>
+    <string name="nav_faults">गुनाह</string>
+    <string name="nav_scanning">अवलोकन</string>
+    <string name="nav_logout">लोग आउट</string>
+    <string name="nav_about_us">हमारे बारे में</string>
+    <string name="nav_change">अनुरोध परिवर्तन</string>
+    <string name="nav_contact_us">हमसे संपर्क करें</string>
+
+    <string name="activity_title_about_us">हमारे बारे में</string>
+    <string name="activity_title_contact_us">हमसे संपर्क करें</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>होम</item>
+        <item>गुनाह</item>
+        <item>अवलोकन</item>
+        <item>अनुरोध परिवर्तन</item>
+        <item>हमारे बारे में</item>
+        <item>हमसे संपर्क करें</item>
+        <item>लोग आउट</item>
+
+    </string-array>
+
+
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+
+    <string name="toggle_turn_on">Yes</string>
+    <string name="toggle_turn_off">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Type">
+        <item>MC 50CC</item>
+        <item>MCWG</item>
+        <item>MCWOG</item>
+        <item>LMV</item>
+        <item>LMV-NT</item>
+        <item>LMV-TR</item>
+        <item>HMV</item>
+        <item>HPMV</item>
+        <item>HTV</item>
+        <item>TRAILER</item>
+    </string-array>
+
+    <!--Contact Form-->
+
+    <string name="contact_form">हमसे संपर्क करें</string>
+    <string name="contact_form_name">आपका नाम</string>
+    <string name="contact_form_email">तुम्हारा ईमेल</string>
+    <string name="contact_form_subject">विषय</string>
+    <string name="contact_form_message">संदेश</string>
+    <string name="contact_form_button">मेसेज भेजें</string>
+    <string name="contact_form_post_message">Please wait! We\'re sending your message to the support department.</string>
+    <string name="contact_posted">आपका संदेश सफलतापूर्वक दिया गया है।</string>
+
+    <!--Home fragment Strings -->
+
+    <string name="page1"><u>नागरिक का लाइसेंस संख्या / वाहन संख्या दर्ज करें और सबमिट बटन दबाएं।</u></string>
+    <string name="page2"><u>पृष्ठ लाइसेंस विवरण और ब्लैकलिस्ट इतिहास को प्रदर्शित करता है।</u></string>
+    <string name="page3"><u>वाहन प्रकार का चयन करें और उल्लंघन किया।</u></string>
+    <string name="page4"><u>उल्लंघन और लाइसेंस विवरण की समीक्षा करें। पूरा होने पर सबमिट करें दबाएं</u></string>
+
+    <!--About Strings -->
+    <string name="about">डिजिटल भारत बनाने के लिए इस सड़क पर, सरकार ने कई सुधार किए हैं। इनमें से एक डिजीलॉकर था, जिसने व्यापक रूप से देश के कंप्यूटर इंजीनियरों को बुलाया और 2016 में इस दिशा की दिशा में सबसे सफल कदम बन गया। एक परियोजना जिसे हम काम करना चाहते हैं, इस डिजीलॉकर के साथ चलेंगे और वह लोगों की बजाय यातायात पुलिस की सेवा करेगा। हम एक ऑनलाइन प्रणाली शुरू करना चाहते हैं जो नागरिक के सड़क गतिविधियों की जांच अपने लाइसेंस के माध्यम से करेगी। या तो लाइसेंस पर एक क्यूआर कोड पेश करना या नागरिक के फोन से कोड स्कैन करने के लिए डिजीलॉकर का उपयोग करना, पुलिस तुरंत व्यक्ति की सड़क गतिविधियों को जान सकती है। इस डेटा में प्रमुख सड़क अपराध, ब्लैकलिस्टिंग, लाइसेंस का निलंबन, और इसी तरह शामिल होंगे।
+उपर्युक्त प्रणाली के लिए एक एंड्रॉइड एप्लिकेशन पेश करना आवश्यकताओं को पूरा करने के लिए पूर्ण मार्ग होगा। 80% से अधिक भारतीयों द्वारा उपयोग किया जाता है, एंड्रॉइड के प्रभुत्व को उपेक्षित नहीं किया जा सकता है।
+इसके बाद हमने उपयोगकर्ताओं के लिए अपना लाइसेंस इतिहास जांचने के लिए एक और आवेदन शुरू किया है। यह प्रणाली उपयोगकर्ता को यह जानने में सहायता करती है कि उसने कब और क्या उल्लंघन किया है।</string>
+    <string name="about_title">ट्रैफिक पाल के बारे में</string>
+    <string name="about_faqcontent">सबसे सामान्य ट्रैफिकब्लेल प्रश्नों के उत्तर पाएं</string>
+    <string name="about_aboutcontent">ट्रैफिकपाल और इसके लाभों के बारे में अधिक जानें</string>
+    <string name="about_version">वर्शन</string>
+
+    <!--Faq fragment -->
+    <string name="faq_title">पूछे जाने वाले प्रश्न</string>
+    <string name="faq_q1">मुझे लगता है मैं एप्लिकेशन को खोलने हर बार प्रवेश करने की जरूरत है?</string>
+    <string name="faq_q2">मैं एक और फोन में अपने खाते खोल सकता है?</string>
+    <string name="faq_q3">क्या होगा अगर नागरिक के पास डिजीएलॉकर खाता नहीं है?</string>
+    <string name="faq_q4">मेरे फोन में QR कोड स्कैनर ऐप स्थापित नहीं है। क्या मैं लाइसेंस स्कैन कर सकता हूं?</string>
+    <string name="faq_a1">नहीं, एक बार प्रवेश करने के बाद, आपको फिर से लॉगिन करने की आवश्यकता नहीं है। जब आप स्पष्ट रूप से लॉगआउट करते हैं, तो आपको फिर से प्रवेश करना होगा।</string>
+    <string name="faq_a2">हाँ। आप खाते में लॉग इन करने के लिए अपने उपयोगकर्ता नाम और पासवर्ड का उपयोग कर सकते हैं।</string>
+    <string name="faq_a3">एक सामान्य लाइसेंस वाले नागरिक का लाइसेंस संख्या है \'लाइसेंस नंबर दर्ज करें \' विकल्प चुनें और मैन्युअल रूप से संख्या दर्ज करें।</string>
+    <string name="faq_a4">स्कैनिंग के लिए आपको एक और एप्लिकेशन इंस्टॉल करने की आवश्यकता नहीं है। आपका फोन कैमरा काम करेगा</string>
+    <string name="faqinst">यदि आपको किसी भी समस्या का सामना करना पड़ रहा है, तो कृपया नीचे दिए गए एफएक्यू को पढ़ें। आपको अधिकांश सामान्य प्रश्नों के उत्तर और समाधान मिलेंगे।\n\nअगर आपकी समस्या अभी भी अनसुलझा है, तो कृपया ऐप के माध्यम से हमें ईमेल करें। हमारी सहायता टीम आपको वापस मिल जाएगी।</string>
+
+    <!--Login fragment -->
+    <string name="log_user">उपयोगकर्ता नाम</string>
+    <string name="log_pass">पासवर्ड</string>
+    <string name="log_show">पासवर्ड दिखाएं</string>
+    <string name="log_signin">साइन इन करें</string>
+    <string name="log_forgot">पासवर्ड भूल गए?</string>
+    <string name="log_click">यहां क्लिक करे</string>
+
+    <string name="forgot_name">पासवर्ड भूल गए?</string>
+    <string name="forgot_ins">अपना खाता एक्सेस करने के लिए उपयोग करने वाला ईमेल आईडी / उपयोगकर्ता नाम दर्ज करें एक पासवर्ड रीसेट लिंक ईमेल को निर्दिष्ट ईमेल पर भेज दिया जाएगा।</string>
+    <string name="forgot_email">ईमेल</string>
+    <string name="forgot_reset">पासवर्ड रीसेट</string>
+
+    <!--Home Fragment -->
+    <string name="start_scanning">स्कैनिंग प्रारंभ करें</string>
+    <string name="homeinst">उपरोक्त छवियां लाइसेंस की स्कैनिंग और दोषों को सबमिट करने के तरीके पर एक त्वरित मार्गदर्शिका दिखाती हैं।</string>
+
+    <!--Scanning fragments-->
+    <string name="layout1">डिज़ीलॉकर से लाइसेंस नंबर स्कैन करें</string>
+    <string name="layout2">लाइसेंस संख्या दर्ज करें</string>
+    <string name="layout3">वाहन संख्या दर्ज करें</string>
+    <string name="button1">QR कोड स्कैन करें</string>
+    <string name="submit">जमा करें</string>
+    <string name="inst">यह स्कैनिंग पेज है। यहां आपके पास तीन विकल्प हैं:\n1) यदि ड्राइवर के पास DigiLocker खाता है, तो लाइसेंस क्यूआर कोड स्कैन करने के लिए पहले विकल्प का उपयोग करें।\n2) यदि चालक के पास सामान्य लाइसेंस है, तो लाइसेंस नंबर दर्ज करने के लिए दूसरा विकल्प उपयोग करें।\n3) यदि चालक के पास लाइसेंस नहीं है, तो वाहन नंबर दर्ज करें जिसे संचालित किया जा रहा है।</string>
+
+    <string name="next">अगला</string>
+    <string name="previous">पिछला</string>
+    <string name="scanning_d1">ड्राइव करने के लिए प्राधिकृत</string>
+    <string name="scanning_d2">जारी करने की तारिख</string>
+    <string name="scanning_d3">लाइसेंस संख्या</string>
+    <string name="scanning_d4">वैधता</string>
+    <string name="scanning_d5">ब्लैकलिस्ट अंक</string>
+    <string name="scanning_d6">स्थिति</string>
+
+    <string name="name">नाम</string>
+    <string name="dob">जन्म की तारीख</string>
+    <string name="address">पता</string>
+    <string name="type">प्रकार</string>
+
+    <string name="date">तारीख</string>
+    <string name="violations">उल्लंघन</string>
+
+    <!--Changes Fragment -->
+    <string name="changes">निम्नलिखित आपके खाते से की गई प्रविष्टियां दिखाती हैं। नवीनतम प्रविष्टियां नीचे जोड़ दी जाएंगी प्रविष्टि का चयन करें जिसमें आप में परिवर्तन का अनुरोध करना चाहते हैं फिर अगले पृष्ठ में, परिवर्तन किए जाने वाले परिवर्तन लिखें। फिर आपको उस मेल को भेजने का अनुरोध किया जाएगा जिसमें सामग्री पहले ही भरी जाएगी। आपको ईमेल क्लाइंट से ईमेल भेजने की आवश्यकता है</string>
+    <string name="sc_vid">उल्लंघन आईडी</string>
+    <string name="sc_ofid">अधिकारी आईडी</string>
+    <string name="sc_Lno">लाइसेंस संख्या</string>
+    <string name="sc_vio">उल्लंघन</string>
+    <string name="sc_date">तारीख</string>
+    <string name="sc_msgtitle">परिवर्तन</string>
+    <string name="sc_button">परिवर्तन भेजें</string>
+</resources>

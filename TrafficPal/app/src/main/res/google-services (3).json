@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "588573090968",
+    "firebase_url": "https://trafficpal-d1118.firebaseio.com",
+    "project_id": "trafficpal-d1118",
+    "storage_bucket": "trafficpal-d1118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588573090968:android:f6b35d094080be5b",
+        "android_client_info": {
+          "package_name": "com.afinal.android.trafficpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588573090968-s16hqv43k16rofgvbhon14nl1g6bhktf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgNdhKnfxhi5Hwy9Hd4mt53PXdbnmFhQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.afinal.android.trafficpal"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+
+
+    compile 'com.android.support:support-v4:27.0.0'
+    compile 'com.android.support:recyclerview-v7:27.0.0'
+    compile 'com.android.support:design:27.0.0'
+    compile 'com.github.chenupt.android:springindicator:1.0.2@aar'
+    compile 'info.androidhive:barcode-reader:1.1.5'
+    compile 'com.google.firebase:firebase-database:12.0.1'
+    compile 'com.google.firebase:firebase-storage:12.0.1'
+    compile 'com.google.firebase:firebase-auth:12.0.1'
+    compile 'com.google.firebase:firebase-core:12.0.1'
+    compile 'com.firebase:firebase-client-android:2.3.1'
+    compile 'com.android.support:appcompat-v7:27.0.0'
+    compile 'com.google.android.gms:play-services-vision:12.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.aakira:expandable-layout:1.4.2@aar'
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/white"
+    tools:context="com.afinal.android.trafficpal.Activity.About">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/faq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="@string/faq_title"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/faq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginLeft="10dp"
+            android:text="@string/about_faqcontent"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dp"
+        android:id="@+id/line1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/l1"
+        android:background="#c0c0c0"/>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/line1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textColor="@android:color/black"
+            android:text="@string/about_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/about1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginLeft="10dp"
+            android:text="@string/about_aboutcontent"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dp"
+        android:id="@+id/line2"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/l2"
+        android:background="#c0c0c0"/>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textColor="@android:color/black"
+            android:text="@string/about_version"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/version1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginLeft="10dp"
+            android:text="1.0.1"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dp"
+        android:id="@+id/line3"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/l3"
+        android:background="#c0c0c0"/>
+
+
+</RelativeLayout>
