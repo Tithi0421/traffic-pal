@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1049275937540",
+    "firebase_url": "https://traffic-pal.firebaseio.com",
+    "project_id": "traffic-pal",
+    "storage_bucket": "traffic-pal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049275937540:android:f6b35d094080be5b",
+        "android_client_info": {
+          "package_name": "com.afinal.android.trafficpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049275937540-tkqquftkk0rre4r4895vov2pgebj9t58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2PYDw0YwDiTNG-ghLzE0-yhubTG1jfsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049275937540:android:09ca68fc5520f4ec",
+        "android_client_info": {
+          "package_name": "com.afinal.android.trafficpal1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049275937540-tkqquftkk0rre4r4895vov2pgebj9t58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2PYDw0YwDiTNG-ghLzE0-yhubTG1jfsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="60dp"
+        android:text="Enter the OTP sent to you here."
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/otp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/darker_gray"
+        android:backgroundTint="@color/colorPrimary"
+        android:lines="1"
+        android:inputType="number"
+        android:text="123456"
+        android:layout_below="@+id/otp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
+        android:maxLength="11"
+
+        />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_below="@+id/otp1"
+        android:text="Submit"
+        android:textSize="15dp"
+        android:background="@drawable/bg_button_rounded"
+        android:textColor="@android:color/white"/>
+
+
+
+</RelativeLayout>

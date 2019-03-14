@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LicenseAssistant</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Contact Form-->
+
+    <string name="contact_form">Contact Us</string>
+    <string name="contact_form_name">Your Name</string>
+    <string name="contact_form_email">Your Email</string>
+    <string name="contact_form_subject">Subject</string>
+    <string name="contact_form_message">Message</string>
+    <string name="contact_form_button">Send Message</string>
+    <string name="contact_form_post_message">Please wait! We\'re sending your message to the support department...</string>
+    <string name="contact_posted">Your message has been successfully delivered.</string>
+
+    <string name="log_forgot">Forgot Password?</string>
+    <string name="log_click">Click here</string>
+
+    <string name="forgot_name">Forgot Password?</string>
+    <string name="forgot_ins">Enter the License number you use to access your account. An OTP will be sent to the registered mobile number.</string>
+    <string name="forgot_license">License </string>
+    <string name="forgot_number">Number </string>
+    <string name="forgot_reset">Reset Password</string>
+
+    <string name="log_bottom">A Digital India Initiative\nMinistry of Electronics and Information Technology\nGovernment of India</string>
+
+
+</resources>
