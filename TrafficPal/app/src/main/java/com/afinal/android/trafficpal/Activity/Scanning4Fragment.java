@@ -27,7 +27,7 @@ import java.util.Date;
 
 
 /**
- * Created by Dhiren on 29/07/15.
+ * Created by Tithi on 29/07/15.
  */
 public class Scanning4Fragment extends Fragment {
 
