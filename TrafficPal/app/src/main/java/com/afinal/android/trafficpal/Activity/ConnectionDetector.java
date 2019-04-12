@@ -1,7 +1,7 @@
 package com.afinal.android.trafficpal.Activity;
 
 /**
- * Created by DHIREN on 01-02-2018.
+ * Created by Tithi on 01-02-2018.
  */
 
 
