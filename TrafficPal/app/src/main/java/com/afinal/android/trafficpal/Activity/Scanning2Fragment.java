@@ -34,7 +34,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by Dhiren on 29/07/15.
+ * Created by Tithi on 29/07/15.
  */
 public class Scanning2Fragment extends Fragment {
 
