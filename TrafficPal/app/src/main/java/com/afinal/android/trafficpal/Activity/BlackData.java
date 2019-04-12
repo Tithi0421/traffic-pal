@@ -1,7 +1,7 @@
 package com.afinal.android.trafficpal.Activity;
 
 /**
- * Created by DHIREN on 11-03-2018.
+ * Created by Tithi on 11-03-2018.
  */
 public class BlackData {
 
