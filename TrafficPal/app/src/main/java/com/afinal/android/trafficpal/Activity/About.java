@@ -16,7 +16,7 @@ import com.afinal.android.trafficpal.R;
 
 
 /**
- * Created by Ravi on 29/07/15.
+ * Created by Tithi on 29/07/15.
  */
 public class About extends Fragment {
 
